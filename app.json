@@ -35,7 +35,7 @@
           "config": {
             "organization": "smart-sailors",
             "project": "smart-sailors-app",
-            "authToken": "57d5404397054204bfbb2ddef4cebdcbc05b64651f7244448f2e1ef9a8ff1414"
+            "authToken": "sentry-token"
           }
         }
       ]
