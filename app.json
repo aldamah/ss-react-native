@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "SmartSailors",
+    "slug": "smart-sailors-mobile",
+    "owner": "smartsailors",
+    "privacy": "unlisted",
+    "platforms": ["ios", "android"],
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "primaryColor": "#001846",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#001846"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 7000
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "buildNumber": "142",
+      "bundleIdentifier": "net.smartsailors.app"
+    },
+    "android": {
+      "versionCode": 142,
+      "package": "net.smartsailors.app",
+      "permissions": []
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "smart-sailors",
+            "project": "smart-sailors-app",
+            "authToken": "57d5404397054204bfbb2ddef4cebdcbc05b64651f7244448f2e1ef9a8ff1414"
+          }
+        }
+      ]
+    }
+  }
+}

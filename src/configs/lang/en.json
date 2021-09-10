@@ -1,0 +1,222 @@
+{
+  "local": "en",
+  "login": {
+    "password": "Password",
+    "login": "LOGIN",
+    "form": {
+      "fillAllfields": "Please fill out all the fields",
+      "incorrectMailorPassword": "Incorrect Mail or Password",
+      "deviceOffline": "Device currently offline, you can log in when the connection is restored"
+    }
+  },
+  "menu": {
+    "dashboard":"DASHBOARD",
+    "planned": "PLANNED",
+    "unplanned": "UNPLANNED",
+    "meters": "METERS",
+    "logout": "LOG OUT"
+  },
+  "lang": {
+    "english": "󠁧English",
+    "french": "French (Français)"
+  },
+  "filter": {
+    "ship": "Ship",
+    "department": "Department",
+    "equipment": "Equipment",
+    "reset": "Reset",
+    "filter": "Filter",
+    "shipPlaceholder": "Select ship name",
+    "departmentPlaceholder": "Select department name",
+    "equipmentPlaceholder": "Select equipment name"
+  },
+  "tasklist": {
+    "ship": "Ship",
+    "department": "Department",
+    "equipment": "Equipment",
+    "deadline": "Deadline",
+    "progression": "Progression",
+    "noresult": "No results",
+    "lastValue": "Last value",
+    "hoursOn": "Hours on"
+  },
+  "dashboard": {
+    "navigation": {
+      "list": "Dashboard"
+    },
+    "hello": "Hello {firstName} 👋",
+    "maintenanceLate" : "maintenances are late",
+    "openUnplannedTasksCount": "unplanned maintenances in progress",
+    "sevenDaysLateRunningMetersCount":"running meters haven't been updated for 7 days",
+    "sparePartsInCriticalAmountCount":"spare part in critical stock",
+    "toBeDone":"To be done in the coming days",
+    "viewMore":"View more...",
+    "late":"Late",
+    "almostLate":"Almost late",
+    "onTime":"On time",
+    "notAvailable":"The dashboard is not available in offline mode"
+  },
+  "planned": {
+    "navigation": {
+      "list": "Planned",
+      "detail": "Complete task",
+      "takePhoto" : "Take photo"
+    },
+    "title": "Planned Event",
+    "date": "Date when you complete the task",
+    "runningMeter": "Running meter value when you complete the maintenance",
+    "notDone": "Not done",
+    "done": "Done",
+    "remark": "Add a quick comment",
+    "remarkPlaceholder": "e.g.: I changed this because...",
+    "saveButton": "Save & Calculate next maintenance due date",
+    "saveButtonOffline": "Save offline & Calculate next maintenance due date",
+    "maintenanceInfo": "Maintenance information",
+    "toDoEvery": "To do every",
+    "hours": "hours",
+    "days": "days",
+    "months": "months",
+    "years":"year",
+    "needToBeCompletedOn": "Need to be completed on {dueHourMeter} hours (est. {estimatedDueDate}), Last maintenance done on {actualResolutionDate}",
+    "taskDescription": "Task description",
+    "noSparePart": "No spare part are linked to this maintenance",
+    "equipmentInfo": "Equipment information",
+    "currentMetersValue": "Current meters value:{hourMeter} hours",
+    "lastMaintenanceDone": "Last maintenances done",
+    "noMaintenanceHistory": "There is no maintenance history.",
+    "form": {
+      "meter": {
+        "instruction": "Resolution meter is mandatory",
+        "errorUpdateLess": "You can't update a running meter with value less than previous one : {value}",
+        "errorLess": "Can not be less than the previous maintenance running meter value: {value}",
+        "errorMore": "Can not be more than current equipment running meter value: {value}"
+      },
+      "subtask": {
+        "instruction": "All mandatory task have to be completed"
+      }
+    },
+    "toast": {
+      "errorSendingOnline": "An error has occurred when sending your content",
+      "errorSendingOffline": "An error has occurred when sending offline content",
+      "errorCloseContent": "An error has occurred when we closed your content",
+      "pendingChange": "This task has pending changes that will be transferred when the internet connection is restored",
+      "successAttachmentOffline" : "Your file has been successfully uploaded, it will be sent when online the internet connection is restored"
+    },
+    "attachment": "Add an attachment",
+    "attachmentText": "Almost every files are accepted",
+    "attachmentSentOn" : "Sent on {date} at {hour}",
+    "attachmentSentOnOffline" : "Saved offline"
+  },
+  "unplanned": {
+    "navigation": {
+      "list": "Unplanned Event",
+      "detail": "View Unplanned event",
+      "resolve": "Resolve an unplanned task",
+      "edit": "Update unplanned task",
+      "add": "Add unplanned task"
+    },
+    "title": "Unplanned Event",
+    "description": "Description of what happens",
+    "comments": "Comments",
+    "information": "Maintenance information",
+    "noComment": "No comment have been posted to this maintenance. Add your own comment",
+    "taskNotResolved": "This task is not resolved",
+    "eventOccuredOn": "This event occured on",
+    "createdOn": "Created on",
+    "closeOrResolveButton": "Close/Resolve Task",
+    "editButton": "Edit Task",
+    "disableButton": "Disable Maintenance",
+    "disableOfflineButton": "Disable offline Maintenance",
+    "equipmentInfo": "Equipment information",
+    "closeOrResolve": {
+      "putDescription": "Please put a description of the solution",
+      "closeOrResolve": "Close/Resolve",
+      "closeOrResolveOffline": "Close/Resolve Offline",
+      "cancel": "Cancel",
+      "dateSolve": "When did you solve it?",
+      "commentSolve": "What did you do to solve the issue?",
+      "commentSolvePlaceholder": "Any comment / advice for the next person who will face the problem?"
+    },
+    "edit": {
+      "title": "Title of the unplanned maintenance?",
+      "date": "Date when event occurs",
+      "dateDeadline": "Do you have a deadline to fix it ?",
+      "whatHappened": "Describe here what happened",
+      "whatHappenedPlaceholder": "e.g.: Oil leak on the circuit...",
+      "save": "Save unplanned maintenance",
+      "saveOffline": "Save offline unplanned maintenance"
+    },
+    "add": {
+      "title": "Title of the unplanned maintenance?",
+      "titlePlaceholder": "Title of task",
+      "date": "Date when event occurs",
+      "dateDeadline": "Do you have a deadline to fix it ?",
+      "whatHappened": "Describe here what happened",
+      "whatHappenedPlaceholder": "Ex: Oil leak on the circuit...",
+      "save": "Save unplanned maintenance",
+      "saveOffline": "Save offline unplanned maintenance",
+      "chooseShip": "Choose Ship",
+      "chooseDepartment": "Choose Department",
+      "chooseEquipment": "Choose Equipment",
+      "selectShip": "Select ship name",
+      "selectDepartment": "Select department name",
+      "selectEquipment": "Select equipment name"
+    },
+    "toast": {
+      "errorSendingOnline": "An error has occurred when sending your content",
+      "errorSendingOffline": "An error has occurred when sending offline content",
+      "errorCloseContent": "An error has occurred when we closed your content",
+      "errorProcessRequest": "An error has occured while processing your request."
+    },
+    "form": {
+      "errorTitle": "Please put a title for your unplanned maintenance.",
+      "errorDescription": "Please give us a description of what happened."
+    }
+  },
+  "meters": {
+    "navigation": {
+      "list": "Meters",
+      "detail": "Running meter"
+    },
+    "title": "Update running meter value",
+    "dateRead": "Date when you read your running meter value",
+    "value": "Running meter value",
+    "lastReadingSaved": "Last reading values",
+    "lastReadingSavedValue": "{lastReadingSaved} hours",
+    "on": "on",
+    "hours": "hours",
+    "equipmentInfo": "Equipment information",
+    "valueInstruction": "You can't update a running meter with value less than previous one: {hourMeter}",
+    "noMaintenanceHistory": "There is no maintenance history.",
+    "noComment": "No comment was provided",
+    "updateButton": "Update reading for {equipmentName}",
+    "updateOfflineButton": "Update reading offline for {equipmentName}",
+    "toast": {
+      "errorSendingOnline": "An error has occurred when sending your content",
+      "errorSendingOffline": "An error has occurred when sending offline content",
+      "pleaseWaitOnline": "Please wait while we fetch your data",
+      "pleaseWaitOffline": "Please wait while we send your offline data"
+    }
+  },
+  "connexion": {
+    "text": "Device currently offline, any updates will be sent automatically when the connection is restored"
+  },
+  "date": {
+    "change": "Change"
+  },
+  "camera":{
+    "reTake":"Re-take",
+    "send":"Send photo"
+  },
+  "attachmentPicker" : {
+    "takePhoto":"Take Photo",
+    "choosePhoto":"Choose Photo",
+    "chooseFile":"Choose File"
+  },
+  "documentPicker":{
+    "fileTooBig":"Fichier trop volumineux (max=10Mo)"
+  },
+  "missing_permission":"Missing permission",
+  "delete":"Delete",
+  "cancel":"Cancel"
+}

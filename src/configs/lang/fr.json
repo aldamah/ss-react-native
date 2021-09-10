@@ -1,0 +1,222 @@
+{
+  "local": "fr",
+  "login": {
+    "password": "Mot de passe",
+    "login": "SE CONNECTER",
+    "form": {
+      "fillAllfields": "Merci de remplir tous les champs",
+      "incorrectMailorPassword": "Adresse de messagerie ou mot de passe incorrect",
+      "deviceOffline": "Appareil hors ligne, vous pourrez vous connecter une fois la connexion rétablie"
+    }
+  },
+  "menu": {
+    "dashboard":"TABLEAU DE BORD",
+    "planned": "PLANIFIEES",
+    "unplanned": "NON-PLANIFIEES",
+    "meters": "COMPTEURS",
+    "logout": "SE DECONNECTER"
+  },
+  "lang": {
+    "english": "Anglais (English)",
+    "french": "Français"
+  },
+  "filter": {
+    "ship": "Navire",
+    "department": "Département",
+    "equipment": "Equipement",
+    "reset": "Réinitialiser",
+    "filter": "Filtrer",
+    "shipPlaceholder": "Nom du navire",
+    "departmentPlaceholder": "Nom du département",
+    "equipmentPlaceholder": "Nom de l'équipement"
+  },
+  "tasklist": {
+    "ship": "Navire",
+    "department": "Département",
+    "equipment": "Equipement",
+    "deadline": "Date limite",
+    "progression": "Progression",
+    "noresult": "Pas de résultats",
+    "lastValue": "Dernier compteur",
+    "hoursOn": "Heures le"
+  },
+  "dashboard": {
+    "navigation": {
+      "list": "Tableau de bord"
+    },
+    "hello": "Hello {firstName} 👋",
+    "maintenanceLate" : "maintenances en retard",
+    "openUnplannedTasksCount": "maintenances non-planifiées ouvertes",
+    "sevenDaysLateRunningMetersCount":"compteurs n'ont pas été mis à jour depuis 7 jours",
+    "sparePartsInCriticalAmountCount":"pièces en niveau de stock critique",
+    "toBeDone":"A faire dans les prochains jours",
+    "viewMore":"Voir plus...",
+    "late":"En retard",
+    "almostLate":"Bientôt en retard",
+    "onTime":"A l'heure",
+    "notAvailable":"Le tableau de bord n'est pas disponible en mode hors ligne"
+  },
+  "planned": {
+    "navigation": {
+      "list": "Planifiée",
+      "detail": "Compléter une maintenance planifiée",
+      "takePhoto" : "Prendre une photo"
+    },
+    "title": "Maintenance planifiée",
+    "date": "Date à laquelle vous avez fait le travail",
+    "runningMeter": "Relevé d'heures de marche quand vous avez fait le travail",
+    "notDone": "Pas fait",
+    "done": "Fait",
+    "remark": "Ajoutez un commentaire rapide pour le prochain 😉",
+    "remarkPlaceholder": "Ex: J'ai changé ceci à cause de...",
+    "saveButton": "Sauvegarder la maintenance et calculer la prochaine échéance",
+    "saveButtonOffline": "Sauvegarder hors ligne la maintenance et calculer la prochaine échéance",
+    "maintenanceInfo": "Informations de maintenance",
+    "toDoEvery": "A faire tous les",
+    "hours": "heures",
+    "days": "jours",
+    "months": "mois",
+    "years":"années",
+    "needToBeCompletedOn": "Doit être fait le {dueHourMeter} heures (est. {estimatedDueDate}), Dernière maintenance faite le {actualResolutionDate}",
+    "taskDescription": "Description de la tâche",
+    "noSparePart": "Aucune pièce n'est liée à cette maintenance",
+    "equipmentInfo": "L'équipement concerné",
+    "currentMetersValue": "Valeur du compteur actuel :{hourMeter} heures",
+    "lastMaintenanceDone": "Dernières maintenances réalisées",
+    "noMaintenanceHistory": "Il n'y a pas d'historique de maintenance",
+    "form": {
+      "meter": {
+        "instruction": "Le champ du relevé d'heure à laquelle la résolution de l'incident à été résolu est obligatoire",
+        "errorUpdateLess": "Vous ne pouvez pas mettre à jour le relevé de compteur avec une valeur plus basse que la précédente : {value}",
+        "errorLess": "La valeur du compteur ne peut pas être plus basse que la précédente : {value}",
+        "errorMore": "Ne peut pas être supérieur à la valeur actuelle du compteur de marche de l'équipement : {value}"
+      },
+      "subtask": {
+        "instruction": "Toutes les tâches obligatoires doivent être complétées"
+      }
+    },
+    "toast": {
+      "errorSendingOnline": "Une erreur est survenue pendant l'envoi de vos données",
+      "errorSendingOffline": "Une erreur est survenue pendant l'envoi de vos données hors ligne",
+      "errorCloseContent": "Une erreur s'est produite lors de la fermeture de la tâche",
+      "pendingChange" : "Cette tâche a des modifications en attente, celle-ci sera mise à jour lorsque la connexion internet sera disponible",
+      "successAttachmentOffline" : "Votre fichier a été téléchargé, celle-ci sera envoyé lorsque la connexion internet sera disponible"
+    },
+    "attachment": "Ajouter une pièce jointe",
+    "attachmentText": "Quasiment tous les types de fichiers",
+    "attachmentSentOn" : "Envoyé le {date} à {hour}",
+    "attachmentSentOnOffline" : "Enregsitré hors ligne"
+  },
+  "unplanned": {
+    "navigation": {
+      "list": "Non-planifiées",
+      "detail": "Consulter la maintenance non-planifiée",
+      "resolve": "Résoudre une maintenance non-planifiée",
+      "edit": "Modifier la maintenance non-planifiée",
+      "add": "Créer une maintenance non-planifiée"
+    },
+    "title": "Tâches non-planifiées",
+    "description": "Description de l'événement",
+    "comments": "Commentaires",
+    "information": "Informations de la maintenance",
+    "noComment": "Aucun commentaire n'a encore été posté. Soyez le premier à en ajouter !",
+    "taskNotResolved": "Tâche non résolue",
+    "eventOccuredOn": "Cet événement a eu lieu le",
+    "createdOn": "Créée le",
+    "closeOrResolveButton": "Fermer/Résoudre cette tâche",
+    "editButton": "Modifier cette tâche",
+    "disableButton": "Désactiver cette maintenance",
+    "disableOfflineButton": "Désactiver hors ligne cette maintenance",
+    "equipmentInfo": "L'équipement concerné",
+    "closeOrResolve": {
+      "putDescription": "Merci de compléter la description de la résolution",
+      "closeOrResolve": "Fermer/Resoudre",
+      "closeOrResolveOffline": "Fermer/Résoudre hors ligne",
+      "cancel": "Annuler",
+      "dateSolve": "Quand l'avez-vous résolu ?",
+      "commentSolve": "Qu'avez fait pour la résoudre ?",
+      "commentSolvePlaceholder": "Un commentaire / conseil pour la prochaine personne qui aura le même soucis ?"
+    },
+    "edit": {
+      "title": "Titre de votre maintenance non-planifiée",
+      "date": "Date à laquelle cela est arrivé",
+      "dateDeadline": "Avez-vous une date limite pour réparer ?",
+      "whatHappened": "Décrivez ce qui est arrivé ici",
+      "whatHappenedPlaceholder": "Ex: Fuite d'huile sur le circuit...",
+      "save": "Enregistrer la maintenance non-planifiée",
+      "saveOffline": "Enregistrer hors ligne la maintenance non-planifiée"
+    },
+    "add": {
+      "title": "Titre de votre maintenance non-planifiée",
+      "titlePlaceholder": "Titre de la maintenance",
+      "date": "Date à laquelle cela est arrivé",
+      "dateDeadline": "Avez-vous une date limite pour réparer?",
+      "whatHappened": "Décrivez ce qui est arrivé ici",
+      "whatHappenedPlaceholder": "Ex: Fuite d'huile sur le circuit...",
+      "save": "Enregistrer la maintenance non-planifiée",
+      "saveOffline": "Enregistrer hors ligne la maintenance non-planifiée",
+      "chooseShip": "Choisissez le navire",
+      "chooseDepartment": "Choisissez le département",
+      "chooseEquipment": "Choisissez l'équipement concerné",
+      "selectShip": "Nom du navire",
+      "selectDepartment": "Nom du département",
+      "selectEquipment": "Nom de l'équipement"
+    },
+    "toast": {
+      "errorSendingOnline": "Une erreur est survenue pendant l'envoi de vos données",
+      "errorSendingOffline": "Une erreur est survenue pendant l'envoi de vos données hors ligne",
+      "errorCloseContent": "An error has occurred when we closed your content",
+      "errorProcessRequest": "Une erreur est survenue lors du traitement de votre requête"
+    },
+    "form": {
+      "errorTitle": "Merci de compléter le titre de votre maintenance non-planifiée",
+      "errorDescription": "Merci de donner une description de l'évènement intervenu."
+    }
+  },
+  "meters": {
+    "navigation": {
+      "list": "Compteurs",
+      "detail": "Compteurs d'heure de marche"
+    },
+    "title": "Mettre à jour le compteur",
+    "dateRead": "La date à laquelle vous avez relevé le compteur",
+    "value": "Valeur du compteur",
+    "lastReadingSaved": "Derniers relevés",
+    "lastReadingSavedValue": "{lastReadingSaved} heures",
+    "on": "le",
+    "hours": "heures",
+    "equipmentInfo": "Équipement lié",
+    "valueInstruction": "Vous ne pouvez pas mettre à jour un compteur de marche avec une valeur inférieure à la précédente : {hourMeter}",
+    "noMaintenanceHistory": "Il n'y a pas d'historique de maintenance.",
+    "noComment": "Aucun commentaire n'a été renseigné",
+    "updateButton": "Mettre à jour le compteur de {equipmentName}",
+    "updateOfflineButton": "Mettre à jour hors ligne le compteur de {equipmentName}",
+    "toast": {
+      "errorSendingOnline": "Une erreur est survenue pendant l'envoi de vos données",
+      "errorSendingOffline": "Une erreur est survenue pendant l'envoi de vos données hors ligne",
+      "pleaseWaitOnline": "Merci de patienter, nous récupérons vos données",
+      "pleaseWaitOffline": "Merci de patienter, nous envoyons vos données"
+    }
+  },
+  "connexion": {
+    "text": "Appareil actuellement hors ligne, toutes les mises à jour seront envoyées automatiquement lorsque la connexion sera rétablie"
+  },
+  "date": {
+    "change": "Changer"
+  },
+  "camera":{
+    "reTake":"Re-prendre",
+    "send":"Envoyer"
+  },
+  "attachmentPicker" : {
+    "takePhoto":"Prendre une Photo",
+    "choosePhoto":"Choisir la Photo",
+    "chooseFile":"Choisir le Fichier"
+  },
+  "documentPicker":{
+    "fileTooBig":"Fichier trop volumineux (max=10Mo)"
+  },
+  "missing_permission":"Autorisation manquante",
+  "delete":"Supprimer",
+  "cancel":"Annuler"
+}
