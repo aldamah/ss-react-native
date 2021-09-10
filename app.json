@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "SmartSailors",
-    "slug": "smart-sailors-mobile",
-    "owner": "smartsailors",
+    "name": "ss",
+    "slug": "ss",
+    "owner": "ss",
     "privacy": "unlisted",
     "platforms": ["ios", "android"],
     "version": "2.0.0",
@@ -21,11 +21,11 @@
     "ios": {
       "supportsTablet": false,
       "buildNumber": "142",
-      "bundleIdentifier": "net.smartsailors.app"
+      "bundleIdentifier": "net.ss.app"
     },
     "android": {
       "versionCode": 142,
-      "package": "net.smartsailors.app",
+      "package": "net.ss.app",
       "permissions": []
     },
     "hooks": {
